@@ -1,7 +1,7 @@
 {
   "name": "recettes-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "firebase": "^7.20.0",
     "prop-types": "^15.6.2",
