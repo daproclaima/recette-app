@@ -1,0 +1,12 @@
+Tu peux copier ces règles pour les coller dans Firebase comme je vais te l'expliquer dans la prochaine vidéo.
+
+{
+  "rules": {
+    ".read": true,
+    ".write": "!data.exists()",
+    "$box" : {
+      ".write": "auth != null && (!data.exists() || data.child('chef').val() === auth.uid)",
+      ".read": true
+    }
+  }
+}
