@@ -99,3 +99,14 @@ App.propTypes = {
 // ContextApi: to face pb of components converting props from a component embedded in components embedded in etc...
 
 export default WrappedComponent
+// make npm run build and npx netlify-cli deploy --prod
+/*
+Logs:              https://app.netlify.com/sites/recipe-app-nobour/deploys/5f6624d940a5faf05af7201b
+Unique Deploy URL: https://5f6624d940a5faf05af7201b--recipe-app-nobour.netlify.app
+Website URL:       https://recipe-app-nobour.netlify.app
+*/
+
+// need to add https://recipe-app-nobour.netlify.app in facebook developer and firebase authorization
+
+// need a redirection file managing that for public web server. with netlify a build/_redirects redirecting all on index.html with code 200
+
